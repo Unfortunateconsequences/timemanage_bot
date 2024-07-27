@@ -5,7 +5,7 @@ from telebot.async_telebot import AsyncTeleBot
 
 
 BOT_TOKEN = os.getenv(
-    'BOT_TOKEN', '6905272038:AAHfIAzxHsJ6KTND151wiVpknwdJq0JNeEc')
+    'BOT_TOKEN', '6905272038:AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA')
 
 bot = AsyncTeleBot(BOT_TOKEN)
 event = asyncio.Event()
